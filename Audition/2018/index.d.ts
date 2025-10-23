@@ -533,7 +533,7 @@ declare class AudioClipCollection {
   /**
    * Returns an audio clip by its index
    */
-  readonly index: AudioClipCollection
+  readonly [index: number]: AudioClip
 
   /**
    * Number of audio clips.
