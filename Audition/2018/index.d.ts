@@ -270,7 +270,7 @@ declare class AudioTrackCollection {
   /**
    * Returns an audio track by its index
    */
-  readonly index: AudioTrack
+  readonly [index: number]: AudioTrack
 
   /**
    * Number of audio tracks.
