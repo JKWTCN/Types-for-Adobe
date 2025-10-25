@@ -371,6 +371,11 @@ declare class AudioTrack {
   solo: boolean
 
   /**
+   * True if this track is visible
+   */
+  visible: boolean
+
+  /**
    * Type of the track. The value is one of AUDIOTRACKTYPE_CLIP AUDIOTRACKTYPE_BUS AUDIOTRACKTYPE_MASTER or AUDIOTRACKTYPE_UNKOWN
    */
   readonly type: number
